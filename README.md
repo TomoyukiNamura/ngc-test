@@ -122,9 +122,20 @@ ii  cuda-toolkit-config-common        11.6.55-1                         all     
 - https://tmyoda.hatenablog.com/entry/20200817/1597663325
 - https://www.scl.kyoto-u.ac.jp/Appli/singularity.html
 
-### TensorRT
-- https://recruit.gmo.jp/engineer/jisedai/blog/jetson_nano_tensorrt/
-- https://proc-cpuinfo.fixstars.com/2018/03/tensorrt-00/
-
 ### tensorflow cuda cuDNN version
 - https://www.tensorflow.org/install/source#common_installation_problems
+
+### for inference speed up
+- https://tech.jxpress.net/entry/2021/08/26/170000
+- https://tech-blog.optim.co.jp/entry/2019/07/12/173000
+- https://www.tensorflow.org/lite/performance/post_training_quantization?hl=ja
+- https://recruit.gmo.jp/engineer/jisedai/blog/jetson_nano_tensorrt/
+- https://proc-cpuinfo.fixstars.com/2018/03/tensorrt-00/
+- https://on-demand.gputechconf.com/gtcdc/2017/presentation/dc7172-shashank-prasanna-deep-learning-deployment-with-nvidia-tensorrt.pdf
+
+### models
+- https://deepsquare.jp/2020/10/vision-transformer/
+
+
+### others
+- https://www.qst.go.jp/site/jt60/5248.html#q01
