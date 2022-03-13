@@ -41,24 +41,34 @@ sudo make install
 singularity version
 ```
 
-# singularity usage
-## pull
+## singularity usage
+### pull
 
-### tensorflow: 
+#### tensorflow
+```
 singularity pull docker://nvcr.io/nvidia/tensorflow:22.02-tf2-py3
+```
 
-### pytorch: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
+#### pytorch
+- https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
+```
 singularity pull docker://nvcr.io/nvidia/pytorch:22.02-py3
+```
 
-### TensorRT: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorrt
+#### TensorRT
+- https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorrt
+```
 singularity pull docker://nvcr.io/nvidia/tensorrt:22.02-py3
+```
 
-## shell
+### shell
+```
 singularity shell --nv tensorflow_22.02-tf2-py3.sif
+```
 
-# GPU libs version
+## GPU libs version
 
-## Cuda
+### Cuda
 ```
 $ nvcc -V
 nvcc: NVIDIA (R) Cuda compiler driver
@@ -67,7 +77,8 @@ Built on Fri_Dec_17_18:16:03_PST_2021
 Cuda compilation tools, release 11.6, V11.6.55
 Build cuda_11.6.r11.6/compiler.30794723_0
 ```
-## CuDNN()
+
+### CuDNN()
 ```
 $ cat /usr/include/cudnn_version.h  | grep CUDNN_MAJOR -A 2
 #define CUDNN_MAJOR 8
@@ -85,7 +96,7 @@ ii  libcudnn8                         8.3.2.44-1+cuda11.5               amd64   
 ii  libcudnn8-dev                     8.3.2.44-1+cuda11.5               amd64        cuDNN development libraries and headers
 ```
 
-## CUDA Toolkit
+### CUDA Toolkit
 ```
 $ dpkg -l | grep "cuda-toolkit"
 ii  cuda-toolkit-11-4-config-common   11.4.108-1                        all          Common config package for CUDA Toolkit 11.4.
@@ -94,3 +105,26 @@ ii  cuda-toolkit-11-config-common     11.6.55-1                         all     
 ii  cuda-toolkit-config-common        11.6.55-1                         all          Common config package for CUDA Toolkit.
 ```
 
+## site
+
+### NGC container
+- https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorflow
+- https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch
+- https://catalog.ngc.nvidia.com/orgs/nvidia/containers/tensorrt
+- https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-tensorflow
+
+
+### CUDA on WSL 2
+- https://qiita.com/ksasaki/items/ee864abd74f95fea1efa
+
+
+### singularity
+- https://tmyoda.hatenablog.com/entry/20200817/1597663325
+- https://www.scl.kyoto-u.ac.jp/Appli/singularity.html
+
+### TensorRT
+- https://recruit.gmo.jp/engineer/jisedai/blog/jetson_nano_tensorrt/
+- https://proc-cpuinfo.fixstars.com/2018/03/tensorrt-00/
+
+### tensorflow cuda cuDNN version
+- https://www.tensorflow.org/install/source#common_installation_problems
