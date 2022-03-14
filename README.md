@@ -132,9 +132,12 @@ ii  cuda-toolkit-config-common        11.6.55-1                         all     
 - https://recruit.gmo.jp/engineer/jisedai/blog/jetson_nano_tensorrt/
 - https://proc-cpuinfo.fixstars.com/2018/03/tensorrt-00/
 - https://on-demand.gputechconf.com/gtcdc/2017/presentation/dc7172-shashank-prasanna-deep-learning-deployment-with-nvidia-tensorrt.pdf
+- https://speakerdeck.com/nineties/deep-learningtui-lun-wogao-su-hua-surusohutoueaji-shu
+- https://tech.preferred.jp/ja/blog/model-parallelism-in-dnn/
 
 ### models
 - https://deepsquare.jp/2020/10/vision-transformer/
+- https://www.slideshare.net/ren4yu/ss-149196060
 
 
 ### others
