@@ -142,3 +142,7 @@ ii  cuda-toolkit-config-common        11.6.55-1                         all     
 
 ### others
 - https://www.qst.go.jp/site/jt60/5248.html#q01
+
+
+### HPC & ML envs
+- https://speakerdeck.com/pottava/building-a-hybrid-environment-for-machine-learning-with-singularity-and-ngc-1?slide=86
